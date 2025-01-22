@@ -6,7 +6,7 @@ const recommendation = document.getElementById("recommendation");
 search.addEventListener("click", function () {
     const input = document.getElementById("data").value;
     recommendation.innerHTML = "";
-    fetch("https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-JS0101EN-SkillsNetwork/travel1.json", ).then(
+    fetch("travel_recommendation_api.json", ).then(
         response => response.json()
     ).then(
         data => {
