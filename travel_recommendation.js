@@ -5,6 +5,7 @@ const recommendation = document.getElementById("recommendation");
 
 search.addEventListener("click", function () {
     const input = document.getElementById("data").value;
+    recommendation.innerHTML = "";
     fetch("/travel_recommendation_api.json", ).then(
         response => response.json()
     ).then(
