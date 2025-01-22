@@ -1,0 +1,151 @@
+/* #204C5E */
+
+body  {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2.5em;
+    padding-block: .3em;
+
+    .logo{
+        display: flex;
+        gap: 5px;
+        .title{
+            font-style: italic;
+        }
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .search-section {
+        background-color: #fff;
+        padding-inline: 12px;
+        border-radius: 20px;
+        padding-block: 5px;
+        display: flex;
+        align-items: center;
+        .input-search {
+            margin-right: 25px;
+            border: none;
+            outline: none;
+            width: 200px;
+            box-sizing: border-box;
+            font-size: 12px;
+        }
+        input::placeholder {
+            color: #12CBC4;
+        }
+        .search-button {
+            background-color: #12CBC4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-inline: 5px;
+            cursor: pointer;
+            padding: 5px;
+        }
+    }
+}
+
+.body {
+    background-image: url('https://www.okvoyage.com/wp-content/uploads/2020/05/manhattan-bridge-1024x685.jpg'); 
+    font-family: Roboto;
+    background-position: center; /* Positionne l'image au centre */ 
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */ 
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-inline: 2em;
+    .entry {
+        display: flex;
+        align-items: start;
+        gap: 100px;
+        .side {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 2em;
+            gap: 5em;
+            .bar{
+                height: 17em;
+                width: 1px;
+                background-color: #ffffff;
+                margin-block-start: 0;
+            }
+        }
+        .hero-section{
+            display: flex;
+            .recom{
+                background-color: white;
+                color: black;
+                border-radius: 5px;
+                margin: 1em;
+                p, h3{
+                    padding-inline: 10px;
+                }
+                .visit{
+                    margin: 10px;
+                    background-color: #12CBC4;
+                    color: white;
+                    padding-block: 8px;
+                    font-weight: bold;
+                    padding-inline: 15px;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    border: none;
+                    cursor: pointer;
+                }
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2em;
+    }
+    .hero{
+        font-size: 4.5em;
+        width: 35%;
+        text-transform: uppercase;
+        font-family: Roboto;
+    }
+    .description {
+        font-size: 1em;
+        width: 48%;
+        margin-bottom: 4em;
+    }
+    .book {
+        padding-inline: 25px;
+        padding-block: 10px;
+        border: none;
+        background-color: #12CBC4;
+        color: white;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+

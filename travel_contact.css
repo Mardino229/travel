@@ -1,0 +1,141 @@
+/* #204C5E */
+
+body  {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-inline: 2.5em;
+    padding-block: .3em;
+    gap: 15em;
+    .logo{
+        display: flex;
+        gap: 5px;
+        .title{
+            font-style: italic;
+        }
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        margin-left: 6em;
+    }
+}
+
+.body {
+    padding-top: 15px;
+    background-image: url('https://www.okvoyage.com/wp-content/uploads/2020/05/manhattan-bridge-1024x685.jpg'); 
+    font-family: Roboto;
+    background-position: center; /* Positionne l'image au centre */ 
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */ 
+    background-size: cover;
+    height: 100vh;
+    color: #ffffff;
+    padding-inline: 2em;
+    .entry {
+        display: flex;
+        
+        gap: 100px;
+        .side {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            gap: 2em;
+            .bar{
+                height: 12em;
+                width: 1px;
+                background-color: white;
+                margin-block-start: 0;
+            }
+        }
+        .hero-section{
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2em;
+            width: 100%;
+            .section{
+                width: 50%;
+            }
+            .form{
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+                width: 100%;
+                padding: 2em;
+                input{
+                    height: 2em;
+                    background-color: transparent;
+                    border-color: white;
+                    color: white;
+                    font-size: 20px;
+                    border-radius: 5px;
+                    padding: 5px;
+                }
+                textarea{
+                    background-color: transparent;
+                    border-color: white;
+                    font-size: 20px;
+                    color: white;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+                .submit{
+                    padding: .5em;
+                    background-color: #12CBC4;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 18px;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+    .icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2em;
+    }
+    .hero{
+        font-size: 4.5em;
+        text-transform: uppercase;
+        font-family: Roboto;
+        margin-block-start: 0;
+        width: 100%;
+    }
+    .description {
+        padding: 12px;
+        border-radius: 5px;
+        font-size: 1em;
+        margin-top: 4em;
+        margin-bottom: 4em;
+    }
+    .contact {
+        display: flex;
+        background-color: rgba(9, 2, 2, 0.6);
+        border-radius: 5px;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        
+    }
+}
+

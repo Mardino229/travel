@@ -1,0 +1,81 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "https://th.bing.com/th/id/R.d1df99ac99f4a675da549f65d461a0c0?rik=yCw410J9rg8F2g&pid=ImgRaw&r=0",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "https://a.cdn-hotels.com/gdcs/production90/d1313/e413c950-c31d-11e8-9739-0242ac110006.jpg",
+            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "https://th.bing.com/th/id/OIP.ghA-cyGPMdUDexoW-0CvJgHaEK?rs=1&pid=ImgDetMain",
+            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "https://th.bing.com/th/id/R.41217fc0dd540c3b933adcd751c13188?rik=ngfDSLk6MIciWw&riu=http%3a%2f%2fstatic1.businessinsider.com%2fimage%2f559c2c45ecad04df54fc8f8c-1200%2fkyoto-is-home-to-incredible-temples-such-as-the-byodo-in-buddhist-temple-a-unesco-world-heritage-site.jpg&ehk=cVxNzCFKyAGz5WD%2bH%2fzhAPTI7bJ%2fSPBsYUlUA3Tm1Ag%3d&risl=&pid=ImgRaw&r=0",
+            "description": "Known for its historic temples, gardens, and traditional tea houses."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "https://th.bing.com/th/id/OIP.rsjgP5KMf6R7FNrGT0SyxQHaE7?rs=1&pid=ImgDetMain",
+            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "https://cdn.getyourguide.com/img/location/53341a461c85b.jpeg/88.jpg",
+            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia",
+        "imageUrl": "https://th.bing.com/th/id/OIP.B0ShbhvDYsgXU-isLfR45wHaE8?w=1620&h=1080&rs=1&pid=ImgDetMain",
+        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      },
+      {
+        "id": 2,
+        "name": "Taj Mahal, India",
+        "imageUrl": "https://www.nj.com/resizer/LnHBUu5QQCVGqHRuTXqmql2eP3U=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/PN4GQ6OKUZFZPCEJK2NR6A5VUU.jpg",
+        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia",
+        "imageUrl": "https://th.bing.com/th/id/OIP.AE_V38yK9MmAv9GOJQSOzAHaE8?rs=1&pid=ImgDetMain",
+        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      },
+      {
+        "id": 2,
+        "name": "Copacabana Beach, Brazil",
+        "imageUrl": "https://th.bing.com/th/id/OIP.ryCklG1juOMmr1PdqJlXywHaEd?rs=1&pid=ImgDetMain",
+        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      }
+    ]
+}
+  

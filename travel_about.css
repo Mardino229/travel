@@ -1,0 +1,142 @@
+/* #204C5E */
+
+body  {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-inline: 2.5em;
+    padding-block: .3em;
+    gap: 15em;
+    .logo{
+        display: flex;
+        gap: 5px;
+        .title{
+            font-style: italic;
+        }
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        margin-left: 6em;
+    }
+}
+
+.body {
+    padding-top: 15px;
+    background-image: url('https://www.okvoyage.com/wp-content/uploads/2020/05/manhattan-bridge-1024x685.jpg'); 
+    font-family: Roboto;
+    background-position: center; /* Positionne l'image au centre */ 
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */ 
+    background-size: cover;
+    height: 100vh;
+    color: #ffffff;
+    padding-inline: 2em;
+    .entry {
+        display: flex;
+        
+        gap: 100px;
+        .side {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            gap: 2em;
+            .bar{
+                height: 12em;
+                width: 1px;
+                background-color: white;
+                margin-block-start: 0;
+            }
+        }
+        .hero-section{
+            
+        }
+    }
+    span {
+        font-weight: bold;
+    }
+    .icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.2em;
+    }
+    .hero{
+        font-size: 4.5em;
+        text-transform: uppercase;
+        font-family: Roboto;
+        margin-block-start: 0;
+        margin-top: 10px;
+    }
+    .description {
+        background-color: rgba(9, 2, 2, 0.6);
+        padding: 12px;
+        border-radius: 5px;
+        font-size: 1em;
+        margin-bottom: 4em;
+    }
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .ship{
+            font-size: 3.5em;
+            text-transform: uppercase;
+            font-family: Roboto;
+            width: 10%;
+        }
+        .team{
+            display: flex;
+            gap: 1em;
+        }
+        .person{
+            background-color: rgba(9, 2, 2, 0.6);
+            display: flex;
+            gap: 10px;
+            border-radius: 5px;
+            padding: 25px;
+            width: 18em;
+        }
+        .mission {
+            margin-block-end: 0;
+            margin-block-start: 0;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding-right: 15px;
+        }
+        .name{
+            font-weight: bold;
+            margin-block-end: 0;
+            margin-block-start: 0;
+        }
+        .role {
+            padding: 1em;
+            background-color: #5f27cd;
+            color: white;
+            border-color: white;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            text-transform: uppercase;
+        }
+    }
+}
+
